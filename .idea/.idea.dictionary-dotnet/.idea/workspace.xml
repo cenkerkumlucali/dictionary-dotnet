@@ -6,9 +6,15 @@
     <projectFile profileName="Dictionary.Projections.FavoriteService">src/Projections/Dictionary.Projections.FavoriteService/Dictionary.Projections.FavoriteService.csproj</projectFile>
     <projectFile profileName="Dictionary.Projections.UserService">src/Projections/Dictionary.Projections.UserService/Dictionary.Projections.UserService.csproj</projectFile>
     <projectFile profileName="Dictionary.Projections.VoteService">src/Projections/Dictionary.Projections.VoteService/Dictionary.Projections.VoteService.csproj</projectFile>
+    <projectFile profileName="BlazorApp1">src/Clients/BlazorWeb/BlazorApp1/BlazorApp1.csproj</projectFile>
+    <projectFile profileName="IIS Express">src/Clients/BlazorWeb/BlazorApp1/BlazorApp1.csproj</projectFile>
+    <projectFile profileName="Dictionary.WebApp">src/Clients/BlazorWeb/Dictionary.WebApp/Dictionary.WebApp.csproj</projectFile>
+    <projectFile profileName="IIS Express">src/Clients/BlazorWeb/Dictionary.WebApp/Dictionary.WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45283089-ab8e-4fdc-85f6-5cbb463b9c73" name="Changes" comment="" />
+    <list default="true" id="45283089-ab8e-4fdc-85f6-5cbb463b9c73" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.dictionary-dotnet/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +24,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FMtoHyOxHP12OkPlonaapUUoLl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -175,14 +182,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664313956010</updated>
-      <workItem from="1664313956013" duration="940000" />
+      <workItem from="1664313956013" duration="1146000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

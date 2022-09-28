@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kIQTQ9KIx4GsHSeXR1x0CU8kxuJNj6CFkxCRMrDUjfP3gQT4UT8AZOyu9Ge7MOku2o49mEG/NttIJcmwKQ+HQg==",
+  "dgSpecHash": "pRkU2+xYdYxB/jNTWKk2Bqy9yQgD4jSsAnia81eLzi8wBXeqTfo/N3Qdpze3svxf2H1yLPhGoIh1lJM6r2iNNg==",
   "success": true,
   "projectFilePath": "/Users/cenkerkumlucali/codes/dictionary-dotnet/src/Common/Common/Common.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/cenkerkumlucali/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
