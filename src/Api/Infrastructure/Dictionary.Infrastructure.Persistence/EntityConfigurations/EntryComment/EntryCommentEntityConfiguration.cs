@@ -10,7 +10,7 @@ public class EntryCommentEntityConfiguration : BaseEntityConfiguration<Api.Domai
     {
         base.Configure(builder);
         builder.ToTable("entrycomment", DictionaryContext.DEFAULT_SCHEMA);
-        builder.HasOne(c => c.CreatedByUser)
+        builder.HasOne(c => c.CreatedBy)
             .WithMany(c => c.EntryComments)
             .HasForeignKey(c => c.CreatedById)
             .OnDelete(DeleteBehavior.Restrict);

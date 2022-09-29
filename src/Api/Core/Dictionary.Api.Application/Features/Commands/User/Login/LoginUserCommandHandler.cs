@@ -5,13 +5,13 @@ using AutoMapper;
 using Common.Infrastructure;
 using Common.Infrastructure.Exceptions;
 using Common.Models.Queries;
-using Common.Models.RequestModels;
+using Common.Models.RequestModels.User;
 using Dictionary.Api.Application.Interfaces.Repositories;
 using MediatR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Dictionary.Api.Application.Features.Commands.User;
+namespace Dictionary.Api.Application.Features.Commands.User.Login;
 
 public class LoginUserCommandHandler : IRequestHandler<LoginUserCommand, LoginUserViewModel>
 {

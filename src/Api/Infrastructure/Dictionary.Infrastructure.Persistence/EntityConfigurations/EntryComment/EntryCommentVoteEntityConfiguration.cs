@@ -13,7 +13,7 @@ public class EntryCommentVoteEntityConfiguration : BaseEntityConfiguration<Entry
         builder.ToTable("entrycommentvote", DictionaryContext.DEFAULT_SCHEMA);
         
         builder.HasOne(c => c.EntryComment)
-            .WithMany(c => c.EntryVotes)
+            .WithMany(c => c.EntryCommentVotes)
             .HasForeignKey(c => c.EntryCommentId);
     }
 }

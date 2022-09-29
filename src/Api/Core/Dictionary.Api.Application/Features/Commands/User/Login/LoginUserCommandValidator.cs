@@ -1,8 +1,7 @@
-using Common.Models.Queries;
-using Common.Models.RequestModels;
+using Common.Models.RequestModels.User;
 using FluentValidation;
 
-namespace Dictionary.Api.Application.Features.Commands.User;
+namespace Dictionary.Api.Application.Features.Commands.User.Login;
 
 public class LoginUserCommandValidator : AbstractValidator<LoginUserCommand>
 {

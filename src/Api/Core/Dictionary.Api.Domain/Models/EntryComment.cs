@@ -6,7 +6,7 @@ public class EntryComment:BaseEntity
     public Guid CreatedById { get; set; }
     public Guid EntryId { get; set; }
     public virtual Entry Entry { get; set; }
-    public virtual User CreatedByUser { get; set; }
-    public virtual ICollection<EntryCommentVote> EntryVotes { get; set; }
-    public virtual ICollection<EntryCommentFavorite> EntryFavorites { get; set; }
+    public virtual User CreatedBy { get; set; }
+    public virtual ICollection<EntryCommentVote> EntryCommentVotes { get; set; }
+    public virtual ICollection<EntryCommentFavorite> EntryCommentFavorites { get; set; }
 }

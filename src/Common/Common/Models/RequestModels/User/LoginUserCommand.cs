@@ -1,7 +1,7 @@
 using Common.Models.Queries;
 using MediatR;
 
-namespace Common.Models.RequestModels;
+namespace Common.Models.RequestModels.User;
 
 public class LoginUserCommand:IRequest<LoginUserViewModel>
 {

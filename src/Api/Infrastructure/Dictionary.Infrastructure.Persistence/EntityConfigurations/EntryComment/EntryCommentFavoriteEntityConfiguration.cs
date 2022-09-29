@@ -13,7 +13,7 @@ public class EntryCommentFavoriteEntityConfiguration : BaseEntityConfiguration<E
         builder.ToTable("entrycommentfavorite", DictionaryContext.DEFAULT_SCHEMA);
         
         builder.HasOne(c => c.EntryComment)
-            .WithMany(c => c.EntryFavorites)
+            .WithMany(c => c.EntryCommentFavorites)
             .HasForeignKey(c => c.EntryCommentId);
         
         builder.HasOne(c => c.CreatedUser)
